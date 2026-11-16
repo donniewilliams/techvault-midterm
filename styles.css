@@ -929,3 +929,16 @@ footer {
     align-items: center;
     margin-bottom: 0;
 }
+/* Four gaming consoles per row */
+@media (min-width: 1100px) {
+    .product-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
+
+/* Consistent console image sizes */
+.product-card .product-image img {
+    width: 200px;
+    height: 190px;
+    object-fit: contain;
+}
