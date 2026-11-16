@@ -906,3 +906,26 @@ footer {
         height: 50px;
     }
 }
+
+/* Gaming Console Product Images */
+
+.product-image img {
+    width: 100%;
+    max-width: 230px;
+    height: 190px;
+    object-fit: contain;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover .product-image img {
+    transform: scale(1.08);
+}
+
+.product-image .category-icon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
