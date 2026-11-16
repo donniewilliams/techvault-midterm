@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming | TechVault</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-container">
+            <h1>TechVault<span>.</span></h1>
+            <p>THE FUTURE STARTS HERE</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gaming.html" class="active">Gaming</a></li>
+            <li><a href="laptops.html">Laptops</a></li>
+            <li><a href="pcs.html">PCs</a></li>
+            <li><a href="hardware.html">Hardware</a></li>
+            <li><a href="index.html#categories">Peripherals</a></li>
+            <li><a href="index.html#clearance">Clearance</a></li>
+            <li><a href="index.html#about">Reviews</a></li>
+            <li><a href="index.html#featured">Cart</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section class="store-section">
+            <div class="section-heading">
+                <span class="section-tag">LEVEL UP YOUR GAME</span>
+                <h2>Gaming <span>Consoles</span></h2>
+                <p>Explore new boundaries with our selection of the latest available gaming technology.</p>
+            </div>
+        </section>
+
+        <section class="store-section">
+            <div class="section-heading">
+                <span class="section-tag">SHOP GAMING CONSOLES</span>
+                <h2>Our <span>Console Collection</span></h2>
+                <p>Browse our list of the newest generation of consoles.</p>
+            </div>
+
+            <div class="product-grid">
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="category-icon">
+						<img src="img/playstation.png" alt="playstation">
+						</div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-label">SONY</span>
+                        <h3>Playstation 5 Pro</h3>
+                        <p>Push the boundaries of play with enhanced ray tracingm AI-powered upscaling, and stunning 4k visuals.</p>
+                        <div class="product-bottom">
+                            <strong>$899.99</strong>
+                            <span>In Stock</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="category-icon">
+						<img src="img/xbox.png" alt="xbox">
+						</div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-label">Microsoft</span>
+                        <h3>XBOX Series X25</h3>
+                        <p>Experience true next-gen gaming with 12 teraflops of power, Quick Resume, and seamless 4k gameplay.</p>
+                        <div class="product-bottom">
+                            <strong>$899.99</strong>
+                            <span>In Stock</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="category-icon">
+						<img src="img/nintendo.png" alt="nintendo switch">
+						</div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-label">NINTENDO</span>
+                        <h3>Nintendo Switch 2</h3>
+                        <p>Take your games anywhere with upgraded performance, a vibrant 1080p display, and seamless handheld-to-TV play.</p>
+                        <div class="product-bottom">
+                            <strong>$499.99</strong>
+                            <span>In Stock</span>
+                        </div>
+                    </div>
+                </div>
+				
+				<div class="product-card">
+                    <div class="product-image">
+                        <div class="category-icon">
+						<img src="img/steam.png" alt="steam">
+						</div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-label">STEAM</span>
+                        <h3>Steam Machine</h3>
+                        <p>Bring your favorite entertainment together with seamless streaming, easy access, and endless viewing possibilities.</p>
+                        <div class="product-bottom">
+                            <strong>$1,349</strong>
+                            <span>Avaiable for Preorder</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div>
+                <h2>TechVault<span>.</span></h2>
+                <p>Your destination for modern technology.</p>
+            </div>
+
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="index.html#categories">Categories</a>
+                <a href="index.html#featured">Featured</a>
+                <a href="index.html#about">About</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 TechVault. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
