@@ -942,3 +942,33 @@ footer {
     height: 190px;
     object-fit: contain;
 }
+/* Center PC page content */
+.store-section {
+    width: 100%;
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 24px;
+    box-sizing: border-box;
+}
+
+/* Keep product cards in a centered grid */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+    width: 100%;
+}
+
+/* Responsive layout */
+@media (max-width: 900px) {
+    .product-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+}
