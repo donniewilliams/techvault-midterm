@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hardware | TechVault</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-container">
+            <h1>TechVault<span>.</span></h1>
+            <p>THE FUTURE STARTS HERE</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#categories">Gaming</a></li>
+            <li><a href="index.html#categories">Laptops</a></li>
+            <li><a href="pcs.html">PCs</a></li>
+            <li><a href="hardware.html" class="active">Hardware</a></li>
+            <li><a href="index.html#categories">Peripherals</a></li>
+            <li><a href="index.html#clearance">Clearance</a></li>
+            <li><a href="index.html#about">Reviews</a></li>
+            <li><a href="index.html#featured">Cart</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section class="store-section">
+            <div class="section-heading">
+                <span class="section-tag">UPGRADE YOUR SETUP</span>
+                <h2>Computer <span>Hardware</span></h2>
+                <p>Explore powerful components to build or upgrade your computer.</p>
+            </div>
+        </section>
+
+        <section class="store-section">
+            <div class="section-heading">
+                <span class="section-tag">SHOP COMPUTER COMPONENTS</span>
+                <h2>Our <span>Hardware Collection</span></h2>
+                <p>Find the parts you need for gaming, productivity, and performance.</p>
+            </div>
+
+            <div class="product-grid">
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="category-icon">⚙️</div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-label">PROCESSOR</span>
+                        <h3>AMD Ryzen 7 CPU</h3>
+                        <p>Powerful processor designed for gaming, multitasking, and everyday performance.</p>
+                        <div class="product-bottom">
+                            <strong>$299.99</strong>
+                            <span>In Stock</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="category-icon">🎮</div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-label">GRAPHICS CARD</span>
+                        <h3>GeForce RTX Graphics Card</h3>
+                        <p>High-performance graphics for smooth gaming, video editing, and creative projects.</p>
+                        <div class="product-bottom">
+                            <strong>$499.99</strong>
+                            <span>In Stock</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="category-icon">💾</div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-label">MEMORY</span>
+                        <h3>32GB DDR5 RAM</h3>
+                        <p>Fast computer memory for improved multitasking and system responsiveness.</p>
+                        <div class="product-bottom">
+                            <strong>$119.99</strong>
+                            <span>In Stock</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div>
+                <h2>TechVault<span>.</span></h2>
+                <p>Your destination for modern technology.</p>
+            </div>
+
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="index.html#categories">Categories</a>
+                <a href="index.html#featured">Featured</a>
+                <a href="index.html#about">About</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 TechVault. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
