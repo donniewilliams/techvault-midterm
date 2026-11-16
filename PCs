@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desktop PCs | TechVault</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-container">
+            <h1>TechVault<span>.</span></h1>
+            <p>THE FUTURE STARTS HERE</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#categories">Gaming</a></li>
+            <li><a href="index.html#categories">Laptops</a></li>
+            <li><a href="pcs.html" class="active">PCs</a></li>
+            <li><a href="index.html#categories">Hardware</a></li>
+            <li><a href="index.html#categories">Peripherals</a></li>
+            <li><a href="index.html#clearance">Clearance</a></li>
+            <li><a href="index.html#about">Reviews</a></li>
+            <li><a href="index.html#featured">Cart</a></li>
+        </ul>
+    </nav>
+<section class="store-section">
+    <div class="section-heading">
+        <span class="section-tag">SHOP DESKTOP COMPUTERS</span>
+        <h2>Our <span>PC Collection</span></h2>
+        <p>Find the right computer for your budget and needs.</p>
+    </div>
+
+    <div class="product-grid">
+
+        <div class="product-card">
+            <div class="product-image">
+                <div class="pc-art">
+                    <div class="pc-fan"></div>
+                    <div class="pc-fan"></div>
+                </div>
+            </div>
+            <div class="product-info">
+                <span class="product-label">EVERYDAY DESKTOP</span>
+                <h3>Budget Desktop</h3>
+                <p>Intel Core i3, 8GB RAM, 512GB SSD. Great for school, work, and everyday tasks.</p>
+                <div class="product-bottom">
+                    <strong>$499.99</strong>
+                    <span>In Stock</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <div class="pc-art">
+                    <div class="pc-fan"></div>
+                    <div class="pc-fan"></div>
+                    <div class="pc-fan"></div>
+                </div>
+            </div>
+            <div class="product-info">
+                <span class="product-label">GAMING DESKTOP</span>
+                <h3>Gaming Desktop</h3>
+                <p>AMD Ryzen 7, 16GB RAM, 1TB SSD. Designed for gaming and multitasking.</p>
+                <div class="product-bottom">
+                    <strong>$1,199.99</strong>
+                    <span>In Stock</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <div class="pc-art">
+                    <div class="pc-fan"></div>
+                    <div class="pc-fan"></div>
+                    <div class="pc-fan"></div>
+                </div>
+            </div>
+            <div class="product-info">
+                <span class="product-label">PROFESSIONAL DESKTOP</span>
+                <h3>Creator Workstation</h3>
+                <p>Intel Core i9, 32GB RAM, 2TB SSD. Built for editing, design, and demanding projects.</p>
+                <div class="product-bottom">
+                    <strong>$1,699.99</strong>
+                    <span>In Stock</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+    <main>
+        <section class="store-section">
+            <div class="section-heading">
+                <span class="section-tag">TECHVAULT DESKTOP COMPUTERS</span>
+                <h2>Explore Our <span>Desktop PCs</span></h2>
+                <p>Find the perfect desktop computer for gaming, school, work, and everyday use.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div>
+                <h2>TechVault<span>.</span></h2>
+                <p>Your destination for modern technology.</p>
+            </div>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="index.html#categories">Categories</a>
+                <a href="index.html#featured">Featured</a>
+                <a href="index.html#about">About</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 TechVault. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
