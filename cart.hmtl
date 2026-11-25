@@ -1,1 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart | TechVault</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <div class="header-container">
+        <h1>TechVault<span>.</span></h1>
+        <p>THE FUTURE STARTS HERE</p>
+    </div>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gaming.html">Gaming</a></li>
+        <li><a href="laptops.html">Laptops</a></li>
+        <li><a href="pcs.html">PCs</a></li>
+        <li><a href="hardware.html">Hardware</a></li>
+        <li><a href="peripherals.html">Peripherals</a></li>
+        <li><a href="clearance.html">Clearance</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="cart.html" class="active">Cart</a></li>
+    </ul>
+</nav>
+
+<main>
+
+    <section class="store-section">
+        <div class="section-heading">
+            <span class="section-tag">SHOPPING CART</span>
+            <h2>Your <span>TechVault Cart</span></h2>
+            <p>Review your items before checkout.</p>
+        </div>
+    </section>
+
+    <section class="store-section">
+
+        <div class="product-grid">
+
+            <div class="product-card">
+                <div class="product-image">
+                    <div class="category-icon">🛒</div>
+                </div>
+
+                <div class="product-info">
+                    <span class="product-label">NO ITEMS IN CART</span>
+                   
+				   </br></br>
+				   
+                    <p>Quantity: 0</p>
+
+                    <div class="product-bottom">
+                        <strong>$0</strong>                       
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="store-section">
+
+        <div class="section-heading">
+            <span class="section-tag">ORDER SUMMARY</span>
+            <h2>Checkout <span>Overview</span></h2>
+        </div>
+
+        <div class="benefits-grid">
+
+            <div class="benefit-card">
+                <h3>Subtotal</h3>
+                <p>$0</p>
+            </div>
+
+            <div class="benefit-card">
+                <h3>Shipping</h3>
+                <p>FREE</p>
+            </div>
+
+            <div class="benefit-card">
+                <h3>Total</h3>
+                <p><strong>$0</strong></p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="clearance-banner">
+
+        <div>
+            <span class="section-tag">READY TO CHECK OUT?</span>
+
+            <h2>Secure Your <span>Technology.</span></h2>
+
+            <p>
+                Proceed to checkout and complete your order.
+            </p>
+
+            <a href="#" class="btn-primary">
+                Proceed to Checkout
+            </a>
+        </div>
+
+        <div class="clearance-decoration">🛒</div>
+
+    </section>
+
+</main>
+
+<footer>
+    <div class="footer-content">
+        <div>
+            <h2>TechVault<span>.</span></h2>
+            <p>Your destination for modern technology.</p>
+        </div>
+
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="index.html#categories">Categories</a>
+            <a href="index.html#featured">Featured</a>
+            <a href="index.html#about">About</a>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2026 TechVault. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
